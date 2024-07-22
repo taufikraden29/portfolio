@@ -1,0 +1,73 @@
+:root {
+  /* Colour */
+  --primary-color: #2d3250;
+  --secondary-color: #424769
+  --ascent-color:#7077A1;
+  --light-color:#F6B17A;
+
+  /* Border Radius */
+}
+
+.txt-primary {
+  color: var(--secondary-color);
+}
+.txt-secondary {
+  color: var(--light-color);
+}
+
+.apps-section{
+background-color: var(--primary-color);
+border-radius: 2rem;
+}
+
+.card-images {
+  border-radius: 5rem;
+  background-color: #F6B17A;
+
+}
+.images-hero {
+  object-position: 50% -10%;
+  object-fit: cover;
+  width: 350px;
+  height: 500px;
+}
+.card-vitae{
+  display: flex;
+  align-items: center;
+}
+.cv-images {
+  padding: 2rem;
+  border-radius: 2rem;
+  height: 30%;
+  width: 30%;
+  background-color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+  color: #F6B17A;
+  padding: 0.7rem 2.1rem;
+  border-radius: 20px;
+}
+
+.button-secondary {
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  padding: 0.7rem 2.1rem;
+  border-radius: 20px;
+}
+.button-secondary:hover {
+  background-color: white;
+  color: var(--primary-color);
+  padding: 0.7rem 2.1rem;
+  border-radius: 20px;
+  
+}
+
