@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
 :root {
   /* Colour */
   --primary-color: #2d3250;
@@ -6,6 +8,15 @@
   --light-color:#F6B17A;
 
   /* Border Radius */
+}
+section{
+}
+
+.nav-item a:hover {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+
 }
 
 .txt-primary {
@@ -18,22 +29,22 @@
 .apps-section{
 background-color: var(--primary-color);
 border-radius: 2rem;
-}
-
-.card-images {
-  border-radius: 5rem;
-  background-color: #F6B17A;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.23);
 
 }
+
 .images-hero {
   object-position: 50% -10%;
   object-fit: cover;
   width: 350px;
-  height: 500px;
+  height: 600px;
+}
+#hero{
+  padding-top: 10rem;
 }
 .card-vitae{
-  display: flex;
   align-items: center;
+
 }
 .cv-images {
   padding: 2rem;
@@ -42,12 +53,29 @@ border-radius: 2rem;
   width: 30%;
   background-color: white;
 }
+.card-profile{
+  display: flex;
+  align-items: center;
+}
+.profile-images {
+    object-position: -70% 20%;
+    object-fit: cover;
+    width: 650px;
+    height: 600px;
+    border-radius: 5rem;
+}
+.card-profile-images{
+  height: 32px;
+  width: 32px;
+  margin: 10px;
+}
 
 body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-color: white;
+  /* background-color: white; */
+  text-decoration: none !important;
 }
 
 .button-primary {
